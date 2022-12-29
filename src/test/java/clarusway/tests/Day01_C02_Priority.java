@@ -9,9 +9,10 @@ public class Day01_C02_Priority {
     // TestNG (default) olarak @Test annotationları alfabetik sıraya göre execute eder
     // TestNG prioritysinin sayi degeri en az olan testi ilk once calistirir
     // Priporty attribute u icin negatif degerler kullanilabilir
+    //TestNG default priority=0 dır
 
 
-    @Test(priority = -1000)
+    @Test(priority = 1000)
     public void test02(){
 
     }
